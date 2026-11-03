@@ -22,9 +22,6 @@ export default [
         ...globals.browser,
         ...globals.node,
       },
-      parserOptions: {
-        project: ['./tsconfig.json', './pg/tsconfig.json'],
-      },
     },
     rules: {
       // No unused vars (allow underscore prefix)
