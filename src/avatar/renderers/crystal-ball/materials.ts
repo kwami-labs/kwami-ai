@@ -1,8 +1,8 @@
 import {
   MeshStandardMaterial,
   Color,
-  Texture,
 } from 'three'
+import type { Texture } from 'three'
 
 /**
  * Uniforms for the crystal ball shader
